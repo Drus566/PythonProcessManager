@@ -16,6 +16,7 @@ process_manager.py - скрипт для управления процессом
 * Библиотека psutil: 5.9.8 (необходимо доустановить `pip3 install psutil`
 
 ### Пример применения 
+```shell
 n1@tc08:~/python$ touch alt.txt
 n1@tc08:~/python$ python3 process_manager.py START tail -f alt.txt
 Старт процесса...
@@ -34,3 +35,4 @@ n1@tc08:~/python$ echo "Hello world" >> alt.txt
 n1@tc08:~/python$ cat out.txt
 Привет мир
 n1@tc08:~/python$
+```
